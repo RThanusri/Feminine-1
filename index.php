@@ -835,15 +835,13 @@
            echo "<p>You may not be at the risk of PCOS</p>";
         }
        
-        elseif ($yummy->pcos =='mb y') {
+        else ($yummy->pcos =='mb y') {
            echo "<p>You may be at the risk of PCOS</p>";
         }
 
     }
      
-    else{
-        echo "<p>Please submit the form above to get a prediction.</p>";
-    }
+   
    
     // else {
     //     $yummy = json_decode($json1);
